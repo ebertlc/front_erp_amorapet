@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMORA PETSHOP</title>
+    <style>
+        *{
+
+        }
+        #cabecalho, .objetos{
+            display:flex;
+            position:relative;
+            align-items: center;
+        }
+        #cabecalho{
+        }
+        #id_servicos{
+            height: 400px;
+            width: 200px;
+        }
+        .cls_opcoes{
+            height: 200px;
+            width: 200px;
+        }
+        .opcoes{
+            height: 401px;
+            width: 401px;
+            display: flex;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecalho">
+        <img src="GM_ico.png" width="40px" height="40px">
+        <h1>AMORA PETSHOP</h1>
+    </div>
+
+    <div class="objetos">
+        <div class="servicos">
+            <!--Input buttom com imagem-->
+            <input type="button" value="Serviços" id="id_servicos" onclick="window.location.href='consultaAnimal.html'" >
+        </div>
+        <div class="opcoes">
+            <!--Input buttom com imagem-->
+            <div class="sub_opcoes">
+                <input type="button" class="cls_opcoes" value="Animal" onclick="window.location.href='html/Animal/consultaAnimal.html'" >
+                <input type="button" class="cls_opcoes" value="Cliente" onclick="window.location.href='html/Cliente/consultaCliente.html'">
+            </div>
+            <div class="sub_opcoes">
+                <input type="button" class="cls_opcoes" value="Funcionario" onclick="window.location.href='html/Funcionario/consultaFuncionario.html'">
+                <input type="button" class="cls_opcoes" value="Produto" onclick="window.location.href='html/Produto/consultaProduto.html'">
+            </div>
+        </div>
+    </div>
+</html>
