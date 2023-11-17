@@ -12,28 +12,30 @@
         <h1>AMORA PETSHOP</h1>
     </div>
 
+    <div id="cosultaAnimal">
+        <label for="Nome">NOME</label>
+        <input type="text" class="pesquisar">
+        <label for="Dono">Dono</label>
+        <input type="text" class="pesquisar">
+        <label for="Especie">Especie</label>
+        <input type="text" class="pesquisar">
 
-    <!-- filtros de pesquisa uma função js que busca dados do animal no back and java -->
-    <label for="Nome">NOME</label>
-    <input type="text" class="pesquisar">
-    <label for="Dono">Dono</label>
-    <input type="text" class="pesquisar">
-    <label for="Especie">Especie</label>
-    <input type="text" class="pesquisar">
+        <input type="button" value="Pesquisar">
 
-    <input type="button" value="Pesquisar">
-
-    <input type="button" value="Cadastrar" onclick="window.location.href='novoAnimal.html'">
+        <input type="button" value="Cadastrar" onclick="window.location.href='novoAnimal.html'">
+    </div>
     
-    <table id="tabela">
-        <tr>
-            <th>Nome</th>
-            <th>Especie</th>
-            <th>Raça</th>
-            <th>Nascimento</th>
-            <th>Dono</th>
-            <th>Observação</th>
-        </tr>
+    <div id="retornoAnimal">
+        <table id="tabela">
+            <tr>
+                <th>Nome</th>
+                <th>Especie</th>
+                <th>Raça</th>
+                <th>Nascimento</th>
+                <th>Dono</th>
+                <th>Observação</th>
+            </tr>
+    </div>
 
     <input type="button" value="Voltar" onclick="window.location.href='../../index.html'">
 </body>
